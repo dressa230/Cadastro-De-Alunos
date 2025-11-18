@@ -1,0 +1,108 @@
+/* Estilo geral */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f3f5f7;
+    padding: 20px;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+/* Formulário */
+.form-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.form-container h2 {
+    margin-bottom: 15px;
+}
+
+.campo {
+    margin-bottom: 15px;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #005fcc;
+}
+
+/* Tabela */
+.tabela-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+}
+
+table thead {
+    background: #007bff;
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background: #f6f6f6;
+}
+
+/* Estilos STATUS */
+.aprovado {
+    background: #c8f7c5 !important;
+    font-weight: bold;
+}
+
+.reprovado {
+    background: #f7c5c5 !important;
+    font-weight: bold;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    table th, table td {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
