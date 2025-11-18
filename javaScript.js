@@ -10,16 +10,18 @@ function adicionarAluno() {
     const nome = document.getElementById("nome").value.trim();
     const n1 = document.getElementById("nota1").value;
     const n2 = document.getElementById("nota2").value;
+     const n3 = document.getElementById("nota3").value;
+
 
     // Validação
-    if (!nome || n1 === "" || n2 === "") {
+    if (!nome || n1 === "" || n2 === ""|| n3 ==="") {
         alert("Por favor, preencha todos os campos!");
         return;
     }
 
     const nota1 = parseFloat(n1);
     const nota2 = parseFloat(n2);
-    const media = ((nota1 + nota2) / 2).toFixed(1);
+    const media = ((nota1 + nota2 + nota3) / 3).toFixed(1);
 
     const situacao = media >= 6 ? "Aprovado" : "Reprovado";
 
