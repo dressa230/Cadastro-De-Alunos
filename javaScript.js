@@ -30,6 +30,7 @@ function adicionarAluno() {
         <td>${nome}</td>
         <td>${nota1}</td>
         <td>${nota2}</td>
+        <td>${nota3}</td>
         <td>${media}</td>
         <td>${situacao}</td>
     `;
